@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Direction Educare Assignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="book_session">Book Session</string>
+    <string name="session_desc">Have a private conversation with our experts</string>
+    <string name="imgUrl">https://www.mobihealthnews.com/sites/default/files/wp-content/uploads/2013/05/Dave-Dickinson-Headshot.jpg</string>
+    <string name="mentorName">Prof.Swati</string>
+    <string name="mentorDescription">Conunseller Since June \n 2019</string>
+    <string name="likes">1000+</string>
+    <string name="question">What are the different career options after 12th class ?</string>
+    <string name="answer">First of all, your decission should be final one and not anyone else but yes educate yourself.</string>
+    <string name="votes">85 votes</string>
+    <string name="final_year_students_title">Your juniors</string>
+    <string name="desc">Your juniors earn money by giving and create a network.</string>
+    <string name="academic_counselor">Academic Counselor</string>
+    <string name="home">Home</string>
+    <string name="feedback">Feedback</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+    <string name="notes">Notes</string>
+    <string name="jobs">Jobs</string>
+    <string name="clubs">Clubs</string>
+    <string name="earn_with_us">Earn With Us</string>
+    <string name="places">Places</string>
+    <string name="explore">Explore</string>
+    <string name="question_answer">Question/ Answer</string>
+    <string name="please_choose_your_interest">Please Choose Your Interest</string>
+    <string name="college_guide">College Guide</string>
+</resources>

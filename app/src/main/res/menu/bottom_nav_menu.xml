@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="@string/home"
+    android:icon="@drawable/ic_home"
+    android:iconTint="@color/black"
+    android:id="@+id/idNAVHome"
+    tools:targetApi="o" />
+
+    <item
+        android:title="@string/feedback"
+        android:icon="@drawable/ic_mail"
+        android:iconTint="@color/black"
+        android:id="@+id/idNAVFeedback"
+        tools:targetApi="o" />
+
+    <item
+        android:title="@string/add_photo"
+        android:icon="@drawable/ic_add_photo"
+        android:iconTint="@color/black"
+        android:id="@+id/idNAVAddphoto"
+        tools:targetApi="o" />
+
+    <item
+        android:title="@string/chat"
+        android:icon="@drawable/ic_chat"
+        android:iconTint="@color/black"
+        android:id="@+id/idNAVChat"
+        tools:targetApi="o" />
+
+    <item
+        android:title="@string/profile"
+        android:icon="@drawable/ic_profile"
+        android:iconTint="@color/black"
+        android:id="@+id/idNAVProfile"
+        tools:targetApi="o" />
+
+
+
+</menu>

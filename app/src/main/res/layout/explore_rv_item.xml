@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/idCVExplore"
+    android:layout_width="200dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:id="@+id/idRLExplore"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/purple_500">
+
+        <TextView
+            android:id="@+id/idTVExploreTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/idTVDescription"
+            android:padding="8dp"
+            android:text="Professional"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idTVDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="-15dp"
+            android:padding="8dp"
+            android:textSize="10sp"
+            android:text="Description"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

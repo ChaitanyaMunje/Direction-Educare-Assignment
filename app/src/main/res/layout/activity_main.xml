@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/idToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/idIVDrawer"
+                android:layout_width="wrap_content"
+                android:tint="@color/black"
+                android:src="@drawable/ic_mavigation_drawer"
+                android:layout_height="wrap_content"
+                android:padding="4dp" />
+
+
+            <ImageView
+                android:id="@+id/idIVSearch"
+                android:layout_width="wrap_content"
+                android:tint="@color/black"
+                android:src="@drawable/ic_search"
+                android:layout_toStartOf="@id/idIVNotification"
+                android:layout_height="wrap_content"
+                android:padding="4dp" />
+
+            <ImageView
+                android:id="@+id/idIVNotification"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_notification"
+                android:tint="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:padding="4dp" />
+
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/idTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idToolBar" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/idViewPager"
+        android:layout_width="match_parent"
+        android:layout_above="@id/idBNV"
+        android:layout_height="match_parent"
+        android:layout_below="@id/idTabLayout" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/idBNV"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_nav_menu"
+        />
+
+</RelativeLayout>
